@@ -74,11 +74,6 @@ export default function NewDropDown() {
         <Link to="/Chat" className={classes.LinkColor}>
           <MenuItem onClick={handleClose}>Discussion Pannel</MenuItem>
         </Link>
-        <MenuItem onClick={handleClose}>
-          <a className={classes.LinkColor} href="http://127.0.0.1:5000/">
-            Fact Checker
-          </a>
-        </MenuItem>
         <Link to="/AboutUs" className={classes.LinkColor}>
           <MenuItem onClick={handleClose}>About Us</MenuItem>
         </Link>
